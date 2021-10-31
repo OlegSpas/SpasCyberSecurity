@@ -200,7 +200,7 @@ main .main__content .hero__offer__block .hero__btn {
   opacity: 0;
   -webkit-transition: all .6s ease .2s;
   transition: all .6s ease .2s;
-  border: #ffbe5c 1px solid;
+  border: #ffbe5c 2px solid;
 }
 
 main .main__content .hero__offer__block .hero__btn a {
@@ -1674,7 +1674,7 @@ footer .footer__content .footer__info .footer__nav ul li a {
 
 main .main__content .hero__offer__block .hero__btn:hover {
   background-color: inherit;
-  border: 1px #ffbe5c solid;
+  border: 2px #ffbe5c solid;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 15px;
@@ -1696,6 +1696,10 @@ main .main__content .hero__offer__block .hero__btn:hover {
     opacity: 1;
     background-color: #00000061;
   }
+  70% {
+    opacity: 1;
+    background-color: #00000061;
+  }
   99% {
     background-color: #00000044;
   }
@@ -1706,6 +1710,10 @@ main .main__content .hero__offer__block .hero__btn:hover {
 
 @keyframes poyava {
   0% {
+    opacity: 1;
+    background-color: #00000061;
+  }
+  70% {
     opacity: 1;
     background-color: #00000061;
   }

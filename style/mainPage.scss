@@ -174,7 +174,7 @@ main{
                 transform: translate(0px,120%);
                 opacity: 0;
                 transition: all .6s ease .2s;
-                border: #ffbe5c 1px solid;
+                border: #ffbe5c 2px solid;
                 a{
                     text-decoration: none;
                     font-family: 'Montserrat Bold';
@@ -1461,7 +1461,7 @@ footer{
 
 main .main__content .hero__offer__block .hero__btn:hover{
     background-color: inherit;
-    border: 1px #ffbe5c solid;
+    border: 2px #ffbe5c solid;
     box-shadow: none;
     border-radius: 15px;
 }
@@ -1478,6 +1478,10 @@ main .main__content .hero__offer__block .hero__btn:hover{
 
 @keyframes poyava{
     0%{
+        opacity: 1;
+        background-color: #00000061;
+    }
+    70%{
         opacity: 1;
         background-color: #00000061;
     }
