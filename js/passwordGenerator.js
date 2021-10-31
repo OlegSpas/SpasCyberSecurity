@@ -44,10 +44,10 @@ function generPassword(){
     let passLength = document.getElementById('passLength').value
 
     try{
-        if(passLength > 28)  throw 'Введіть число від 1 до 28';
-        if(passLength < 2) throw 'Введіть число від 1 до 28';
+        if(passLength > 28)  throw 'Введіть число від 2 до 28';
+        if(passLength < 2) throw 'Введіть число від 2 до 28';
         if(passLength == '') throw 'Введіть довжину';
-        if(isNaN(passLength)) throw 'Введіть число від 1 до 28';
+        if(isNaN(passLength)) throw 'Введіть число від 2 до 28';
         if(Number(passLength)) 
         for(i = 0; i < passLength; i++){
             let passSym = Math.floor(Math.random()*passSymbols.length + 1);
