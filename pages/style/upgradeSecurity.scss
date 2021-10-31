@@ -736,6 +736,11 @@ footer{
         text-align: center;
     }
 
+    #about-upgrade{
+        height: 100%;
+        margin-bottom: 5%;
+    }
+
     // PASSWORD GENERATOR BLOCK
     
     .password__content .password__title h2{
@@ -927,6 +932,16 @@ footer{
     .top__table{
         transform:scale(.4, .4);
     }
+        // footer block
+
+        footer .footer__content .footer__info .copyright p,
+        footer .footer__content .footer__info .copyright p{
+            font-size: 16px;
+        }
+        footer .footer__content .footer__logo .lg{
+            height: 54px;
+            width: 54px;
+        }
 }
 
 @media screen and (max-width: 375px) {
@@ -962,6 +977,12 @@ footer{
 
     .top__table{
         transform:scale(.3, .3);
+    }
+
+    // FOOTER
+    footer .footer__content .footer__info .footer__nav ul li a, 
+    footer .footer__content .footer__info .copyright p{
+        font-size: 16px;
     }
 }
 

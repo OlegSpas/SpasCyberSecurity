@@ -887,6 +887,10 @@ footer .footer__content .footer__info .footer__nav ul li a {
   .about-upgrade__content main .main__content .about-upgrade__offer__block p {
     text-align: center;
   }
+  #about-upgrade {
+    height: 100%;
+    margin-bottom: 5%;
+  }
   .password__content .password__title h2 {
     margin-left: 5%;
   }
@@ -1071,6 +1075,14 @@ footer .footer__content .footer__info .footer__nav ul li a {
     -webkit-transform: scale(0.4, 0.4);
             transform: scale(0.4, 0.4);
   }
+  footer .footer__content .footer__info .copyright p,
+  footer .footer__content .footer__info .copyright p {
+    font-size: 16px;
+  }
+  footer .footer__content .footer__logo .lg {
+    height: 54px;
+    width: 54px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -1101,6 +1113,10 @@ footer .footer__content .footer__info .footer__nav ul li a {
   .top__table {
     -webkit-transform: scale(0.3, 0.3);
             transform: scale(0.3, 0.3);
+  }
+  footer .footer__content .footer__info .footer__nav ul li a,
+  footer .footer__content .footer__info .copyright p {
+    font-size: 16px;
   }
 }
 

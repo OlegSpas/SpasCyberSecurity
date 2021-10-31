@@ -1346,6 +1346,24 @@ footer .footer__content .footer__info .footer__nav ul li a {
     font-size: 30px;
     line-height: 38px;
   }
+  #popupPlace .popupContent .popupContent__main {
+    width: 270px;
+    height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #popupPlace .popupContent .popupContent__main img {
+    height: 100px;
+    width: 100px;
+  }
+  #popupPlace .popupContent .popupContent__main h3 {
+    font-size: 24px;
+    line-height: 34px;
+  }
   footer .footer__content .footer__info .copyright p,
   footer .footer__content .footer__info .copyright p {
     font-size: 16px;
